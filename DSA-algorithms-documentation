@@ -1,0 +1,5 @@
+The algorithm is basically a set of written statements that can be converted to an executable code for different inputs to be executed.
+Analysis of algorithms is a field that is concerned with finding the amount of time, space, and other resources to complete the execution of a computer program. 
+
+  **LINEAR SEARCH ALGORITHM
+  This algorithm involves searching through a list or sequence in a linear manner i.e. element after element. 
