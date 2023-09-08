@@ -1,0 +1,32 @@
+def locate_card(card,query):
+  def condition(mid):
+    if card[mid] == query:
+      if mid>0 and card[mid-1] == query:
+        return "left"
+      else:
+        return "found"
+    elif card[mid] > query:
+      return "left"
+    elif card[mid] < query:
+      return "right"
+
+  return binary_search(0, len(card)-1, condition)
+
+
+
+
+
+  return binary_search(li, hi, condition):
+    while li <= hi:
+      mid = li+hi // 2
+      result = condition(mid)
+        if result == "found":
+          return mid
+        elif result = "left"
+          return hi = mid-1
+        elif result = "right"
+          return li = mid+1
+    retun -1
+      
+      
+    
